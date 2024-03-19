@@ -1,0 +1,171 @@
+.comments-section {
+  width: 80%;
+  margin: auto;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.sort-by {
+  margin-left: auto;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+.dateandTime {
+  font-size: 12px;
+  color: brown;
+}
+.sort-by p {
+  display: inline;
+  margin-left: auto;
+}
+.sort-by .arrow {
+  width: 20px;
+  height: 20px;
+  margin-top: 16px;
+}
+.post-card {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: #f1f0f0;
+  padding: 10px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+.post-card button {
+  padding: 5px;
+  background-color: #007bff;
+  color: #fff;
+  width: 110px;
+  border: none;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.commenter {
+  font-weight: 700;
+}
+.comment-actions button {
+  background-color: transparent;
+  border: 0px;
+  color: #007bff;
+  pointer-events: painted;
+}
+
+.post-card input,
+.post-card textarea {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+.reply-card input,
+.reply-card textarea {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+.reply-card span {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.reply-card .post-card button {
+  padding: 5px;
+  background-color: #007bff;
+  color: #fff;
+  width: 100px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: auto;
+}
+.reply-card .reply-buttons {
+  background-color: transparent;
+  border: 0px;
+  color: #007bff;
+  pointer-events: painted;
+  width: 100px;
+  text-align: left;
+  margin-top: 5px;
+}
+
+.comment-card {
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  background-color: #f1f0f0;
+  padding: 10px;
+  width: 80%;
+  margin-left: auto;
+  border: 1px solid lightgray;
+}
+
+.comment-card .comment-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.comment-card .comment-actions {
+  margin-top: 10px;
+  position: relative;
+}
+
+.comment-card .comment-actions button {
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.comment-actions .delete {
+  position: absolute;
+  right: -37px;
+  bottom: 20px;
+}
+
+.reply-card {
+  position: relative;
+  border: 1px solid lightgray;
+}
+.reply-card .delete {
+  position: absolute;
+  right: -15px;
+  bottom: 32px;
+  background-color: transparent;
+  border: 0px;
+}
+
+.reply-card .delete img {
+  width: 20px;
+}
+
+.comment-actions .delete img {
+  width: 20px;
+}
+
+.comment-card .reply-card {
+  margin-top: 15px;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #f8f9fa;
+  display: flex;
+  flex-direction: column;
+}
+
+.reply-card {
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #f8f9fa;
+}
+.reply-card .post-reply {
+  padding: 5px;
+  background-color: #007bff;
+  color: #fff;
+  width: 110px;
+  border: none;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: auto;
+}
